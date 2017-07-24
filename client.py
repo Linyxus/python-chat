@@ -25,7 +25,7 @@ def getTime():
 
 print(">>> Welcome to Chat.")
 print(">>> Connecting to server...")
-sk.connect(('127.0.0.1', 31415))
+sk.connect(('103.91.219.184', 31415)) # Demo server ip
 print(">>> Successfully connect to server.")
 print(">>> Welcome message recieved:")
 data = sk.recv(1024)
